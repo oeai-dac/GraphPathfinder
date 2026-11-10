@@ -1,0 +1,15 @@
+interpretation_code,name_en,name_de
+collapse_wall,Wall collapse,Mauerversturz
+construction_fill,Levelling layer,Planierschicht
+destruction_burning,Destruction layer with traces of burning,Zerstörungsschicht mit Brandspuren
+flood_deposit,Flood deposit,Hochwassersediment
+floor,Floor,Fußboden
+looting_pit_cut,Cut of a treasure hunters' pit,Eingrabung einer Schatzgräbergrube
+looting_pit_fill,Backfill of a treasure hunters' pit,Verfüllung einer Schatzgräbergrube
+natural_gravel,Natural Danube gravel,Anstehender Donauschotter
+pit_cut,Cut of a pit,Eingrabung einer Grube
+pit_fill,Pit fill,Grubenverfüllung
+use_horizont,Use horizon in front of a structure,Nutzungshorizont vor einem Gebäude
+wall_foundation,Wall foundation,Mauerfundament
+well_cut,Cut of a well shaft,Eingrabung eines Brunnenschachts
+well_fill,Well fill,Brunnenverfüllung

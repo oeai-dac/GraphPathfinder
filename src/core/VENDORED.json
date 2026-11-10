@@ -1,0 +1,16 @@
+{
+  "note": "A copy of part of the OntoGraphNavigator's src/lib. Do not edit — change the OntoGraphNavigator and run `npm run sync-core`.",
+  "source": "OntoGraphNavigator",
+  "version": "1.0.0",
+  "commit": "e8c8876",
+  "syncedAt": "2026-10-23T11:56:41.240Z",
+  "files": {
+    "projectFile.js": "6033c374644dd98ffcd479ccadcba783fed519d0ab07d7e730b4e53cc18f5940",
+    "materialize.js": "0f2c6bc05b403d8dc77bc67969f60f72fbbfbbb53e49936b05211e55ce119869",
+    "graphJson.js": "ec5a069f28140ff9ff5812aa8f3295f1ac08315ee521a47a07f622e4b0de9380",
+    "schema.js": "757f5a82136aa9002ee17be8662b322486cd1dee50f8747835eaf916c6fe8a91",
+    "keys.js": "40f2b6efef0d0ec20901452b17282b371125c5ae687429eb80a47e38dc65e56f",
+    "prefixes.js": "fdebe94ac7068cf2e5502a4d0b818f5edb508a7b667683f2987a0f21a36a6e06",
+    "languages.js": "775d6ceef96392ea45b5ef591bfd82c1616a7458c01dd34a2a6e0cd1dc6beb47"
+  }
+}

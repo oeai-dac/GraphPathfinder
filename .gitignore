@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.vite/
+*.local
+.DS_Store
+.obsidian
+
+# The standalone build is attached to releases, not committed.
+GraphPathfinder-standalone.html
+
+# Working notes for Claude Code sessions: local only.
+CLAUDE.md
+
+# Plan, spikes and reference data: local only, never published.
+_Session/

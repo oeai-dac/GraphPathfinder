@@ -1,0 +1,39 @@
+{
+  "name": "graphpathfinder",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Turn tables and databases into a graph for the GraphExplorer, the OntoGraphNavigator and OntoCartographer Studio, without an ontology.",
+  "type": "module",
+  "license": "GPL-3.0-or-later",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:standalone": "node scripts/build-standalone.mjs",
+    "preview": "vite preview",
+    "check": "node tests/run-checks.mjs",
+    "check:browser": "node --import ./tests/register-hooks.mjs tests/browser/run-standalone-check.mjs",
+    "sync-core": "node scripts/sync-core.mjs",
+    "example-data": "node 0_exampleData/make_databases/to-tables.mjs",
+    "example-model": "node 0_exampleData/make_databases/build-model.mjs"
+  },
+  "dependencies": {
+    "buffer": "6.0.3",
+    "dagre": "^0.8.5",
+    "mdb-reader": "3.2.0",
+    "pako": "2.2.0",
+    "papaparse": "^5.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "reactflow": "^11.11.4",
+    "xlsx": "file:vendor/xlsx-0.20.3.tgz",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "puppeteer-core": "25.12.0",
+    "vite": "^5.4.11"
+  }
+}

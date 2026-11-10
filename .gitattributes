@@ -1,0 +1,18 @@
+# Line endings: LF in the repository, native on checkout.
+# Batch and PowerShell files always with CRLF: cmd.exe and Windows PowerShell read them reliably only so.
+* text=auto
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary example data and vendored packages.
+*.accdb binary
+*.mdb binary
+*.xlsx binary
+*.gpkg binary
+*.dump binary
+*.tgz binary
+
+# Not in the release downloads ("Source code" zip/tar.gz on GitHub).
+tests/          export-ignore
+.gitignore      export-ignore
+.gitattributes  export-ignore
